@@ -436,6 +436,11 @@ class Storage_model extends CI_Model
 			$results[$key]['metric_target'] = $entity->getProperty("metric_target")->getValue();
 			$results[$key]['metric_testname'] = $entity->getProperty("metric_testname")->getValue();
 		}
+		
+		usort($results, function($a, $b) {
+			return $a['metric_outstandingios'] - $b['metric_outstandingios'];
+		});
+		
 		return $results;
 	}
 	

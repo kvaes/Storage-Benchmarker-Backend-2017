@@ -388,6 +388,7 @@ class System extends CI_Controller {
 			$results[$key]['name'] 				= strtolower(str_replace('-', '',str_replace(' ', '', $row['metric_testname'])));
 			$results[$key]['title'] 			= $row['metric_testname'];
 		}
+		
 		$data['results'] = $results;
 		
 		$script1 = "
