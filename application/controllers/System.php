@@ -303,16 +303,35 @@ class System extends CI_Controller {
 					\"markers\":[
 						{
 							\"type\":\"area\",
-							\"range\":[0,20],
+							\"range\":[0,5],
 							\"background-color\":\"green\",
 							\"alpha\":0.5,
 							\"label\":{
-									\"text\":\"Good\",
+									\"text\":\"Perfect\",
 							}
 						},
 						{
 							\"type\":\"area\",
-							\"range\":[20,50],
+							\"range\":[5,10],
+							\"background-color\":\"blue\",
+							\"alpha\":0.5,
+							\"label\":{
+									\"text\":\"Attention\",
+							}
+						},
+						{
+							\"type\":\"area\",
+							\"range\":[10,20],
+							\"background-color\":\"yellow\",
+							\"alpha\":0.5,
+							\"label\":{
+									\"text\":\"Warning\",
+							}
+						},
+						
+						{
+							\"type\":\"area\",
+							\"range\":[20,30],
 							\"background-color\":\"yellow\",
 							\"alpha\":0.5,
 							\"label\":{
@@ -562,16 +581,35 @@ class System extends CI_Controller {
 					\"markers\":[
 						{
 							\"type\":\"area\",
-							\"range\":[0,20],
+							\"range\":[0,5],
 							\"background-color\":\"green\",
 							\"alpha\":0.5,
 							\"label\":{
-									\"text\":\"Good\",
+									\"text\":\"Perfect\",
 							}
 						},
 						{
 							\"type\":\"area\",
-							\"range\":[20,50],
+							\"range\":[5,10],
+							\"background-color\":\"blue\",
+							\"alpha\":0.5,
+							\"label\":{
+									\"text\":\"Attention\",
+							}
+						},
+						{
+							\"type\":\"area\",
+							\"range\":[10,20],
+							\"background-color\":\"yellow\",
+							\"alpha\":0.5,
+							\"label\":{
+									\"text\":\"Warning\",
+							}
+						},
+						
+						{
+							\"type\":\"area\",
+							\"range\":[20,30],
 							\"background-color\":\"yellow\",
 							\"alpha\":0.5,
 							\"label\":{
